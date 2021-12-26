@@ -22,10 +22,10 @@
         android:id="@+id/botNav"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@drawable/layout_style2"
         app:itemIconSize="25dp"
-        app:itemIconTint="@color/nav_color"
-        app:itemTextColor="@color/nav_color"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu" />

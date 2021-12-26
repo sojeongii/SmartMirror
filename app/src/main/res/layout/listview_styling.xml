@@ -14,13 +14,13 @@
         android:layout_weight="1"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"/>
-    <Button
+    <ImageButton
         android:id="@+id/virtualFitting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Virtual Fitting"
-        android:background="@android:color/black"/>
+        android:background="@drawable/btn_virtualfit"/>
+
 
 
 </LinearLayout>

@@ -19,24 +19,24 @@ public class ManualActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manual);
 
-        buttonCamera = (Button)findViewById(R.id.button_picture);
-
-        buttonCamera.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //virtualfittingThread cameraThread = ThreadHandler.thread;
-                //ameraThread.execute("cam");
-                //virtualfittingThread camera = ThreadHandler.getThread();
-                virtualfittingThread camera = new virtualfittingThread();
-                try {
-                    result=camera.execute("cam").get();
-                    Log.e("[socket result]",result);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-            }
-        });
+//        buttonCamera = (Button)findViewById(R.id.button_picture);
+//
+//        buttonCamera.setOnClickListener(new Button.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                //virtualfittingThread cameraThread = ThreadHandler.thread;
+//                //ameraThread.execute("cam");
+//                //virtualfittingThread camera = ThreadHandler.getThread();
+//                virtualfittingThread camera = new virtualfittingThread();
+//                try {
+//                    result=camera.execute("cam").get();
+//                    Log.e("[socket result]",result);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//
+//            }
+//        });
     }
 
 

@@ -4,85 +4,130 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="36sp"
-        android:textColor="#000000"
-        android:text="@string/smart_mirror"
-        android:layout_marginTop="210dp"
-        android:id="@+id/textView"/>
-
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="200dp"
-        app:backgroundTint = "@null"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        android:textColor="#000000"
-        android:text="@string/styling"
-        android:layout_marginTop="70dp"
         android:id="@+id/btn_styling"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:background="@drawable/btn_style"/>
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/btn_style1"
+        android:fontFamily="@font/poppinsblack"
+        android:text="@string/styling"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button android:layout_height="wrap_content"
-        android:layout_width="200dp"
-        app:backgroundTint = "@null"
-        app:layout_constraintStart_toStartOf="@+id/btn_styling"
-        app:layout_constraintEnd_toEndOf="@+id/btn_styling"
-        android:textColor="#000000"
-        android:text="@string/closet"
-        android:layout_marginTop="30dp"
+    <Button
         android:id="@+id/btn_closet"
-        app:layout_constraintTop_toBottomOf="@+id/btn_styling"
-        android:background="@drawable/btn_style"/>
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style1"
+        android:fontFamily="@font/poppinsblack"
+        android:text="@string/closet"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_styling" />
 
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="200dp"
-        app:backgroundTint = "@null"
-        app:layout_constraintStart_toStartOf="@+id/btn_closet"
-        app:layout_constraintEnd_toEndOf="@+id/btn_closet"
-        android:textColor="#000000"
-        android:text="@string/user_info"
-        android:layout_marginTop="30dp"
         android:id="@+id/btn_info"
-        app:layout_constraintTop_toBottomOf="@+id/btn_closet"
-        android:background="@drawable/btn_style"/>
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style1"
+        android:fontFamily="@font/poppinsblack"
+        android:text="@string/user_info"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_closet" />
 
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="200dp"
-        app:backgroundTint = "@null"
-        app:layout_constraintStart_toStartOf="@+id/btn_info"
-        app:layout_constraintEnd_toEndOf="@+id/btn_info"
-        android:textColor="#000000"
-        android:text="@string/how_to_use"
-        android:layout_marginTop="30dp"
         android:id="@+id/btn_manual"
-        app:layout_constraintTop_toBottomOf="@+id/btn_info"
-        android:background="@drawable/btn_style"/>
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style1"
+        android:fontFamily="@font/poppinsblack"
+        android:text="@string/how_to_use"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_info" />
 
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="200dp"
-        app:backgroundTint = "@null"
-        app:layout_constraintStart_toStartOf="@+id/btn_manual"
-        app:layout_constraintEnd_toEndOf="@+id/btn_manual"
-        android:textColor="#000000"
-        android:text="Camera"
-        android:layout_marginTop="30dp"
         android:id="@+id/btn_camera"
-        app:layout_constraintTop_toBottomOf="@+id/btn_manual"
-        android:background="@drawable/btn_style"/>
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style1"
+        android:fontFamily="@font/poppinsblack"
+        android:text="@string/camera"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_manual" />
+
+    <TextView
+        android:id="@+id/title_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/poppinsblack"
+        android:text="Smart Mirror"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:fontFamily="@font/poppinslight"
+        android:text="FOR VIRTUAL FITTING"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_icon1"-->
+<!--        android:layout_width="91dp"-->
+<!--        android:layout_height="76dp"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/icon1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_icon2"-->
+<!--        android:layout_width="111dp"-->
+<!--        android:layout_height="132dp"-->
+<!--        android:layout_marginTop="130dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/icon2" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
