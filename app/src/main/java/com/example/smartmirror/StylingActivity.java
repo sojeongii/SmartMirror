@@ -20,10 +20,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class StylingActivity extends AppCompatActivity {
 
-    private BottomNavigationView botNav;
-
-    private CategoryFragment fragmentA;
-    private ItemFragment fragmentB;
+    private CategoryFragment fragment;
 
     @SuppressLint("LongLogTag")
     @Override
@@ -31,8 +28,7 @@ public class StylingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_styling);
 
-        fragmentA = new CategoryFragment();
-        fragmentB = new ItemFragment();
+        fragment = new CategoryFragment();
 
         Intent receive_intent=getIntent();
         String section=receive_intent.getStringExtra("temp_section");
@@ -40,32 +36,12 @@ public class StylingActivity extends AppCompatActivity {
         Bundle bundle=new Bundle();
         bundle.putString("temp_section",section);
 
-        fragmentA.setArguments(bundle);
+        fragment.setArguments(bundle);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.mainFragment, fragmentA).commitAllowingStateLoss();
-        botNav = findViewById(R.id.botNav);
-
-        botNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                FragmentTransaction transaction = fragmentManager.beginTransaction();
-                switch (item.getItemId()) {
-                    case R.id.nav_category:
-                        transaction.replace(R.id.mainFragment, fragmentA).commitAllowingStateLoss();
-                        break;
-                    case R.id.nav_item:
-                        transaction.replace(R.id.mainFragment, fragmentB).commitAllowingStateLoss();
-                        break;
-                }
-
-                return true;
-            }
-        });
+        transaction.replace(R.id.mainFragment, fragment).commitAllowingStateLoss();
 
     }
-
-
 
 }

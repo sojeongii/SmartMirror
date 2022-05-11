@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="top_category">
+        <item>맨투맨</item>
+        <item>셔츠</item>
+        <item>민소매</item>
+        <item>반팔</item>
+        <item>후드티</item>
+    </string-array>
+    <string-array name="top_sleeve_length">
+        <item>긴팔</item>
+        <item>반팔</item>
+        <item>민소매</item>
+    </string-array>
+    <string-array name="top_print">
+        <item>그래픽</item>
+        <item>스트라이프</item>
+        <item>무지</item>
+    </string-array>
+    <string-array name="bottom_category">
+        <item>스커트</item>
+        <item>레깅스</item>
+        <item>숏팬츠</item>
+        <item>슬랙스</item>
+        <item>조거팬츠</item>
+    </string-array>
+    <string-array name="bottom_length">
+        <item>맥시</item>
+        <item>미니</item>
+    </string-array>
+    <string-array name="bottom_fit">
+        <item>와이드</item>
+        <item>스키니</item>
+        <item>일자바지</item>
+        <item>부츠컷</item>
+    </string-array>
+    <string-array name="outer_category">
+        <item>블레이저</item>
+        <item>트레이닝</item>
+        <item>무스탕</item>
+        <item>트렌치코트</item>
+        <item>코트</item>
+        <item>트러커 자켓</item>
+        <item>라이더</item>
+        <item>블루종</item>
+        <item>롱패딩</item>
+        <item>숏패딩</item>
+        <item>가디건</item>
+        <item>후드집업</item>
+    </string-array>
+</resources>

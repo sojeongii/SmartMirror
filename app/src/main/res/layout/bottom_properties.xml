@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="BOTTOM"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/title"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
+        android:text="Length"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/length_text"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+    <Spinner
+        android:layout_height="48dp"
+        android:layout_width="200dp"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="90dp"
+        android:id="@+id/length"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintStart_toEndOf="@+id/length_text"
+        android:importantForAutofill="no"/>
+    <!--    <EditText-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_marginStart="90dp"-->
+    <!--        android:id="@+id/length"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/title"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/length_text"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:hint="@string/your_id"/>-->
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
+        android:text="Category"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/category_text"
+        app:layout_constraintTop_toBottomOf="@+id/length_text"/>
+    <Spinner
+        android:layout_height="48dp"
+        android:layout_width="200dp"
+        app:layout_constraintStart_toStartOf="@+id/length"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/category"
+        app:layout_constraintTop_toBottomOf="@+id/length"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18sp"
+        android:text="Fit"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/fit_text"
+        app:layout_constraintTop_toBottomOf="@+id/category_text"/>
+    <Spinner
+        android:layout_height="48dp"
+        android:layout_width="200dp"
+        app:layout_constraintStart_toStartOf="@+id/category"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fit"
+        app:layout_constraintTop_toBottomOf="@+id/category"
+        android:importantForAutofill="no"/>
+    <!--    <EditText-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/length"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:id="@+id/category"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/length"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:hint="@string/female_male"/>-->
+
+    <!--    <TextView android:layout_height="wrap_content"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:text="Color"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:id="@+id/color_text"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/category_text"/>-->
+    <!--    <Spinner-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/category"-->
+    <!--        android:textSize="14sp"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:id="@+id/color"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/category"-->
+    <!--        android:importantForAutofill="no"/>-->
+
+
+
+
+    <Button
+        app:backgroundTint = "@null"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/save"
+        android:id="@+id/btn_saveInfo"
+        app:layout_constraintTop_toBottomOf="@+id/category"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintVertical_bias="0.474"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/btn_style"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

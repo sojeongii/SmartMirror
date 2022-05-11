@@ -15,19 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:layout_constraintBottom_toTopOf="@id/botNav"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/botNav"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/layout_style2"
-        app:itemIconSize="25dp"
-        app:itemIconTint="#ffffff"
-        app:itemTextColor="#ffffff"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu" />
 
 </LinearLayout>

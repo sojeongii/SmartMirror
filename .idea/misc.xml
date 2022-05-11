@@ -66,10 +66,25 @@
         <entry key="..\:/Users/sojeong/AndroidStudioProjects/Styling_APP/app/src/main/res/layout/fragment_stylingitem.xml" value="0.1" />
         <entry key="..\:/Users/sojeong/AndroidStudioProjects/Styling_APP/app/src/main/res/layout/listview_styling.xml" value="0.1" />
         <entry key="..\:/Users/sojeong/AndroidStudioProjects/Styling_APP/app/src/main/res/layout/listview_stylingitem.xml" value="0.1" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/activity_closet.xml" value="0.1" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/activity_styling.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/activity_styling_item.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/bottom_properties.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/fragment_category.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/fragment_category2.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/fragment_item.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/fragment_item2.xml" value="0.1" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/fragment_stylingitem.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/listview_styling.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/listview_stylingitem.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/listview_user_recommendation.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/outer_properties.xml" value="0.1125" />
+        <entry key="..\:/Users/sojeong/StudioProjects/SmartMirror/app/src/main/res/layout/top_properties.xml" value="0.1125" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
